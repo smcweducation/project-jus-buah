@@ -39,39 +39,3 @@ h2 { color: #9A3412; border-left: 6px solid #F97316; padding-left: 10px; }
 .hero-gambar { flex: 0 1 320px; margin: 0 auto; }
 .hero-gambar img, .galeri img, .tim img { max-width: 100%; height: auto; border-radius: 12px; }
 .hero-poin { list-style: none; padding: 0; display: flex; gap: 12px; flex-wrap: wrap; font-size: .9rem; }
-
-/* STYLE BAGIANMU DI SINI — tiap anggota tambah styling di bawah baris ini, jangan hapus barisnya */
-
-/* --- STYLE BERANDA (Anggota 1 - COMMIT 3/3) --- */
-.grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
-.kartu { border: 2px solid #FED7AA; border-radius: 12px; padding: 16px; background: #FFF7ED; }
-.kartu-ikon { font-size: 2rem; }
-.harga { font-weight: bold; color: #15803D; }
-.galeri { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
-.galeri figure { margin: 0; border: 2px solid #FED7AA; border-radius: 12px; overflow: hidden; background: #FFFBEB; text-align: center; }
-.galeri figcaption { padding: 8px; font-weight: bold; font-size: .9rem; }
-
-/* --- STYLE PROFIL (Anggota 2 - COMMIT 3/3) --- */
-.tim { text-align: center; }
-.tim img { border-radius: 50%; border: 4px solid #F97316; }
-.peran { font-weight: bold; color: #15803D; margin: 4px 0; }
-.tabel-wrap { overflow-x: auto; }
-table { width: 100%; border-collapse: collapse; margin-top: 12px; }
-thead { background: #F97316; color: #fff; }
-th, td { border: 1px solid #FDBA74; padding: 10px; text-align: left; }
-tbody tr:nth-child(even) { background: #FFF7ED; }
-
-/* --- STYLE KONTAK (Anggota 3 - COMMIT 3/3) --- */
-form { display: grid; gap: 12px; max-width: 600px; }
-.form-grup { display: grid; gap: 4px; }
-label { font-weight: bold; }
-input, textarea { padding: 10px; border: 2px solid #FDBA74; border-radius: 8px; font: inherit; }
-input:focus, textarea:focus { outline: 3px solid #F97316; }
-.form-notif { color: #15803D; font-weight: bold; }
-.info-kontak { background: #FFF7ED; border: 2px dashed #F97316; border-radius: 12px; padding: 16px 16px 16px 32px; }
-details { border: 1px solid #FDBA74; border-radius: 8px; padding: 10px 14px; margin: 8px 0; background: #FFFBEB; }
-summary { cursor: pointer; font-weight: bold; }
-
-/* Footer */
-footer { background: #9A3412; color: #fff; text-align: center; padding: 16px; margin-top: 24px; }
-footer a { color: #FDE68A; }
